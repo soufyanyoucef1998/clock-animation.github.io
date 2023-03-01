@@ -1,0 +1,49 @@
+body{
+    background-color: #232055;
+}
+
+
+@font-face {
+    font-family:JosefinSans-Bold ;
+    src: url(JosefinSans-Bold.ttf);
+}
+
+.div{
+    
+    width: 200px;
+    font-family: JosefinSans-Bold;
+    
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #232055;
+
+}
+.left{
+    height: 30px;
+    width: 120px;
+   margin: 5px;
+  margin-left: 63px;
+   
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    background-color: #87E082;
+  color: #232055;
+}
+.right{
+    color: #232055;
+  background-color: #FFB230;
+    height: 30px;
+    width: 120px;
+   margin: 5px;
+  margin-left: 02px;
+  display: flex;
+  align-items: center;
+  padding-left: 11px;
+    border-radius: 7px;
+   
+}
